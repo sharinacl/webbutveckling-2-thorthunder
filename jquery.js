@@ -9,22 +9,22 @@ $("#banner").mouseenter(function(){
 //om oss jQuery kod. Den här är den koden för div id- article som jag döljer med hjälp av css och med hjälp av Jquery funktionen toggle kommer det glida varjegång när man trycka på den knappen med div klassen c-button
 
 $(".c-button").click(function(){
-    $("#idarticle").toggle(1000);
+    $("#idarticle").slideToggle(500);
 });
 
 //music jQuery kod. Här alla div elementet med klassen button1 2 3 4 använder jag funktionen click så att varjegång när man trycka på den knappen kommer div klassen med songs1 2 3 4 visar för att köra detta använder jag funktionen toggle.
 
 $(".button1").click(function(){
-    $(".songs1").toggle(1000);
+    $(".songs1").slideToggle(500);
 });
 $(".button2").click(function(){
-    $(".songs2").toggle(1000);
+    $(".songs2").slideToggle(500);
 });
 $(".button3").click(function(){
-    $(".songs3").toggle(1000);
+    $(".songs3").slideToggle(500);
 });
 $(".button4").click(function(){
-    $(".songs4").toggle(1000);
+    $(".songs4").slideToggle(500);
 });
 
 $("#hide-me").ready(function(){
