@@ -171,8 +171,12 @@ nav ul li a:hover {
     margin: 25px auto;
     border-radius: 10px;
     padding: 0 20px;
-    background: -webkit-linear-gradient(#16031862,#382a1771 );
+    background: rgba(245, 245, 245, 0.247);
     backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 0 200px (255, 255, 255, 0.08);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 .index-banner .vertical-center section h3 {
     color: white;
@@ -183,9 +187,12 @@ nav ul li a:hover {
     font-size: 25px;
     font-weight: 100;
     text-shadow: 2px 1px 6px#ff9100;
-    background: -webkit-linear-gradient(#16031862,#382a1771 );
-    text-align: center;
+    background: rgba(245, 245, 245, 0.247);
     backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 0 200px (255, 255, 255, 0.08);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
     
 }
 .index-banner .vertical-center .index-h2 {
@@ -1073,15 +1080,14 @@ div.desc {
         width: 100%;
         grid-gap: 5px;
         margin-bottom: 10px;
-        background: -webkit-linear-gradient(#160318,#382a17 );
     }
-   /* .container-merch .gallery {
+    .container-merch .gallery {
         margin: 0 auto;
         padding: 10px;
     }
     .container-merch .gallery img {
         border-radius: 10px;
-    }*/
+    }
 }
 
 /*music page code */
