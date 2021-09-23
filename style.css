@@ -186,7 +186,7 @@ nav ul li a:hover {
     padding: 3px 5px;
     font-size: 25px;
     font-weight: 100;
-    text-shadow: 3px 3px 1px #130b02;
+    text-shadow: 3px 3px 1px #111;
     letter-spacing: 1px;
     text-shadow: 2px 1px 6px#ff9100;
     background: rgba(245, 245, 245, 0.247);
@@ -1032,6 +1032,35 @@ div.desc {
 #merchp {
     letter-spacing: 1px;
     word-spacing: 3px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container-merchwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'galleri-img merch-meny '
+        ;
+        width: 100%;
+        grid-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    #container-merch1, #container-merch2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'gallery1 gallery3'
+        'gallery2 gallery4'
+        'gallery5 gallery7'
+        'gallery6 gallery8'
+        'gallery9 gallery10'
+        ;
+        width: 100%;
+        grid-gap: 5px;
+        margin-bottom: 10px; 
+    }
 }
 @media screen and (max-width: 610px) {
     .container-merchwrapper {
