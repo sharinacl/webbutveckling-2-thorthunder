@@ -15,16 +15,16 @@ $(".c-button").click(function(){
 //music jQuery kod. Här alla div elementet med klassen button1 2 3 4 använder jag funktionen click så att varjegång när man trycka på den knappen kommer div klassen med songs1 2 3 4 visar för att köra detta använder jag funktionen toggle.
 
 $(".button1").click(function(){
-    $(".songs1").slideToggle(500);
+    $(".songs1").toggle(500);
 });
 $(".button2").click(function(){
-    $(".songs2").slideToggle(500);
+    $(".songs2").toggle(500);
 });
 $(".button3").click(function(){
-    $(".songs3").slideToggle(500);
+    $(".songs3").toggle(500);
 });
 $(".button4").click(function(){
-    $(".songs4").slideToggle(500);
+    $(".songs4").toggle(500);
 });
 
 $("#hide-me").ready(function(){
